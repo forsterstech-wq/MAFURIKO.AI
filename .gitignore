@@ -5,3 +5,14 @@ __pycache__/
 venv/
 env/
 .env
+
+# Raw datasets
+data/raw/
+
+# Ignore processed data by default
+data/processed/*
+
+# Share the final rainfall dataset
+!data/processed/rainfall/
+data/processed/rainfall/*
+!data/processed/rainfall/mafuriko_rainfall_nairobi.csv
